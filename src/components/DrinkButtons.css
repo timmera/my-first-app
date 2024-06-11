@@ -1,0 +1,18 @@
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button-group button {
+  border-radius: 10px;
+  border: none;
+  background-color: blanchedalmond;
+  margin: 1rem;
+}
+
+.button-group div {
+  width: 100vw;
+  height: 100vh;
+}
