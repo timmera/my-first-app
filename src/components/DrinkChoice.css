@@ -1,6 +1,13 @@
 .drinkChoice {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: flex-start; */
+  align-items: center;
+  gap: 1rem;
+}
+
+img,
+p {
+  margin-top: 2rem;
 }
