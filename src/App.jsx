@@ -9,10 +9,12 @@ export const App = () => {
   const userDrink = tea;
   return (
     <>
-      <div className="App">
-        <h1>{greeting}</h1>
-        <DrinkButtons drinkOne={tea.name} drinkTwo={coffee.name} />
-        <DrinkChoice drink={userDrink} />
+      <div className="app">
+        <div className="drinks shadow">
+          <h1>{greeting}</h1>
+          <DrinkButtons drinkOne={tea.name} drinkTwo={coffee.name} />
+          <DrinkChoice drink={userDrink} />
+        </div>
       </div>
     </>
   );

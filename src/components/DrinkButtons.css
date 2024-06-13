@@ -9,7 +9,8 @@
 .button-group button {
   border-radius: 10px;
   border: none;
-  background-color: blanchedalmond;
+  color: #fed8b1;
+  background-color: #a67b5b;
   margin: 1rem;
 }
 
